@@ -1,0 +1,285 @@
+:root {
+  --blue: #dceeff;
+  --indigo: #0b5ed7;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background-color: #ffffff;
+}
+
+a.active.focus,
+a.active:focus,
+a.focus,
+a:active.focus,
+a:active:focus,
+a:focus,
+button.active.focus,
+button.active:focus,
+button.focus,
+button:active.focus,
+button:active:focus,
+button:focus,
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus {
+  outline: 0 !important;
+  outline-color: transparent !important;
+  outline-width: 0 !important;
+  outline-style: none !important;
+  -webkit-box-shadow: 0 0 0 0 rgba(0, 123, 255, 0) !important;
+          box-shadow: 0 0 0 0 rgba(0, 123, 255, 0) !important;
+}
+
+a,
+button,
+.btn {
+  text-decoration: none;
+}
+
+header .btn-blue {
+  color: var(--indigo);
+  background-color: var(--blue);
+}
+
+header .btn-blue:hover {
+  color: var(--blue);
+  background-color: var(--indigo);
+}
+
+header .btn-blue:focus {
+  color: var(--blue);
+  background-color: var(--indigo);
+}
+
+.modal .modal-body .header {
+  font-weight: 700;
+}
+
+@media (min-width: 320px) {
+  .modal .modal-body .header {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 992px) {
+  .modal .modal-body .header {
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 320px) {
+  .modal .modal-body .desc {
+    font-size: 0.75em;
+  }
+}
+
+@media (min-width: 992px) {
+  .modal .modal-body .desc {
+    font-size: 1em;
+  }
+}
+
+main .promo {
+  width: 100%;
+  background: url("../img/block-bg.webp") no-repeat 50% 100%;
+  -webkit-background-size: contain;
+          background-size: contain;
+}
+
+@media (min-width: 320px) {
+  main .promo {
+    height: 400px;
+  }
+}
+
+@media (min-width: 992px) {
+  main .promo {
+    height: 800px;
+  }
+}
+
+main .promo .promo-header {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  margin: 2em 0 0.25em;
+}
+
+@media (min-width: 320px) {
+  main .promo .promo-header {
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 992px) {
+  main .promo .promo-header {
+    font-size: 3em;
+  }
+}
+
+main .promo .promo-desc {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+@media (min-width: 320px) {
+  main .promo .promo-desc {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 992px) {
+  main .promo .promo-desc {
+    font-size: 2em;
+  }
+}
+
+main .promo .btn-blue {
+  color: var(--indigo);
+  background-color: var(--blue);
+}
+
+main .promo .btn-blue:hover {
+  color: var(--blue);
+  background-color: var(--indigo);
+}
+
+main .promo .btn-blue:focus {
+  color: var(--blue);
+  background-color: var(--indigo);
+}
+
+main .header {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+
+@media (min-width: 320px) {
+  main .header {
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 992px) {
+  main .header {
+    font-size: 2em;
+  }
+}
+
+main .desc {
+  text-align: left;
+}
+
+@media (min-width: 320px) {
+  main .desc {
+    font-size: 0.75em;
+  }
+}
+
+@media (min-width: 992px) {
+  main .desc {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 320px) {
+  main .provide,
+  main .benefits,
+  main .indicators,
+  main .partners,
+  main .faq,
+  main .info {
+    padding: 3em 0;
+  }
+}
+
+@media (min-width: 992px) {
+  main .provide,
+  main .benefits,
+  main .indicators,
+  main .partners,
+  main .faq,
+  main .info {
+    padding: 5em 0;
+  }
+}
+
+main .benefits,
+main .faq {
+  width: 100%;
+  background: var(--blue) url("../img/bg-circle.svg") no-repeat 50% 50%;
+  -webkit-background-size: cover;
+          background-size: cover;
+}
+
+@media (min-width: 320px) {
+  main .info .desc {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 992px) {
+  main .info .desc {
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 320px) {
+  main .info .info-frame {
+    overflow-x: scroll;
+  }
+}
+
+@media (min-width: 992px) {
+  main .info .info-frame {
+    overflow-x: hidden;
+  }
+}
+
+footer {
+  width: 100%;
+  background: url("../img/footer-bg.webp") no-repeat 53% 100%;
+  -webkit-background-size: cover;
+          background-size: cover;
+}
+
+@media (min-width: 320px) {
+  footer {
+    padding: 3em 0;
+  }
+}
+
+@media (min-width: 992px) {
+  footer {
+    padding: 5em 0;
+  }
+}
+
+footer .footer-logo {
+  margin-top: 7em;
+}
+
+footer p {
+  font-size: 0.75em;
+}
+
+@media (min-width: 320px) {
+  footer p {
+    padding: 0 1em;
+  }
+}
+
+@media (min-width: 992px) {
+  footer p {
+    padding: 0 12em;
+  }
+}
